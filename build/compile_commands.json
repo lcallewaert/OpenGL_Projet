@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/Users/loic/MonProjetSFML/build",
+  "command": "/usr/bin/clang++ -DSHADER_PATH=\\\"/Users/loic/MonProjetSFML/src/shaders/\\\" -DTEXTURE_PATH=\\\"/Users/loic/MonProjetSFML/Assets/Textures/\\\" -I/Users/loic/MonProjetSFML/src -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks  -o CMakeFiles/app.dir/src/core/Engine.cpp.o -c /Users/loic/MonProjetSFML/src/core/Engine.cpp",
+  "file": "/Users/loic/MonProjetSFML/src/core/Engine.cpp",
+  "output": "CMakeFiles/app.dir/src/core/Engine.cpp.o"
+},
+{
+  "directory": "/Users/loic/MonProjetSFML/build",
+  "command": "/usr/bin/clang++ -DSHADER_PATH=\\\"/Users/loic/MonProjetSFML/src/shaders/\\\" -DTEXTURE_PATH=\\\"/Users/loic/MonProjetSFML/Assets/Textures/\\\" -I/Users/loic/MonProjetSFML/src -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks  -o CMakeFiles/app.dir/src/core/Window.cpp.o -c /Users/loic/MonProjetSFML/src/core/Window.cpp",
+  "file": "/Users/loic/MonProjetSFML/src/core/Window.cpp",
+  "output": "CMakeFiles/app.dir/src/core/Window.cpp.o"
+},
+{
+  "directory": "/Users/loic/MonProjetSFML/build",
+  "command": "/usr/bin/clang++ -DSHADER_PATH=\\\"/Users/loic/MonProjetSFML/src/shaders/\\\" -DTEXTURE_PATH=\\\"/Users/loic/MonProjetSFML/Assets/Textures/\\\" -I/Users/loic/MonProjetSFML/src -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks  -o CMakeFiles/app.dir/src/core/stb_image.cpp.o -c /Users/loic/MonProjetSFML/src/core/stb_image.cpp",
+  "file": "/Users/loic/MonProjetSFML/src/core/stb_image.cpp",
+  "output": "CMakeFiles/app.dir/src/core/stb_image.cpp.o"
+},
+{
+  "directory": "/Users/loic/MonProjetSFML/build",
+  "command": "/usr/bin/clang++ -DSHADER_PATH=\\\"/Users/loic/MonProjetSFML/src/shaders/\\\" -DTEXTURE_PATH=\\\"/Users/loic/MonProjetSFML/Assets/Textures/\\\" -I/Users/loic/MonProjetSFML/src -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks  -o CMakeFiles/app.dir/src/main.cpp.o -c /Users/loic/MonProjetSFML/src/main.cpp",
+  "file": "/Users/loic/MonProjetSFML/src/main.cpp",
+  "output": "CMakeFiles/app.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/loic/MonProjetSFML/build",
+  "command": "/usr/bin/clang++ -DSHADER_PATH=\\\"/Users/loic/MonProjetSFML/src/shaders/\\\" -DTEXTURE_PATH=\\\"/Users/loic/MonProjetSFML/Assets/Textures/\\\" -I/Users/loic/MonProjetSFML/src -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks  -o CMakeFiles/app.dir/src/renderer/Mesh.cpp.o -c /Users/loic/MonProjetSFML/src/renderer/Mesh.cpp",
+  "file": "/Users/loic/MonProjetSFML/src/renderer/Mesh.cpp",
+  "output": "CMakeFiles/app.dir/src/renderer/Mesh.cpp.o"
+},
+{
+  "directory": "/Users/loic/MonProjetSFML/build",
+  "command": "/usr/bin/clang++ -DSHADER_PATH=\\\"/Users/loic/MonProjetSFML/src/shaders/\\\" -DTEXTURE_PATH=\\\"/Users/loic/MonProjetSFML/Assets/Textures/\\\" -I/Users/loic/MonProjetSFML/src -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks  -o CMakeFiles/app.dir/src/renderer/Renderer.cpp.o -c /Users/loic/MonProjetSFML/src/renderer/Renderer.cpp",
+  "file": "/Users/loic/MonProjetSFML/src/renderer/Renderer.cpp",
+  "output": "CMakeFiles/app.dir/src/renderer/Renderer.cpp.o"
+},
+{
+  "directory": "/Users/loic/MonProjetSFML/build",
+  "command": "/usr/bin/clang++ -DSHADER_PATH=\\\"/Users/loic/MonProjetSFML/src/shaders/\\\" -DTEXTURE_PATH=\\\"/Users/loic/MonProjetSFML/Assets/Textures/\\\" -I/Users/loic/MonProjetSFML/src -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks  -o CMakeFiles/app.dir/src/renderer/Shader.cpp.o -c /Users/loic/MonProjetSFML/src/renderer/Shader.cpp",
+  "file": "/Users/loic/MonProjetSFML/src/renderer/Shader.cpp",
+  "output": "CMakeFiles/app.dir/src/renderer/Shader.cpp.o"
+}
+]
