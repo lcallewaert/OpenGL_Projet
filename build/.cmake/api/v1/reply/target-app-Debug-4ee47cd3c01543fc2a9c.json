@@ -97,11 +97,11 @@
 			[
 				{
 					"backtrace" : 3,
-					"define" : "SHADER_PATH=\"/Users/loic/MonProjetSFML/src/shaders/\""
+					"define" : "SHADER_PATH=\"/Users/loic/OpenGL_Project/src/shaders/\""
 				},
 				{
 					"backtrace" : 4,
-					"define" : "TEXTURE_PATH=\"/Users/loic/MonProjetSFML/Assets/Textures/\""
+					"define" : "TEXTURE_PATH=\"/Users/loic/OpenGL_Project/Assets/Textures/\""
 				}
 			],
 			"frameworks" : 
@@ -116,7 +116,7 @@
 			[
 				{
 					"backtrace" : 5,
-					"path" : "/Users/loic/MonProjetSFML/src"
+					"path" : "/Users/loic/OpenGL_Project/src"
 				},
 				{
 					"backtrace" : 2,

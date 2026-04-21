@@ -1,6 +1,6 @@
 CMakeFiles/app.dir/src/core/stb_image.cpp.o: \
-  /Users/loic/MonProjetSFML/src/core/stb_image.cpp \
-  /Users/loic/MonProjetSFML/src/core/stb_image.h \
+  /Users/loic/OpenGL_Project/src/core/stb_image.cpp \
+  /Users/loic/OpenGL_Project/src/core/stb_image.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/loic/MonProjetSFML
+# Install script for directory: /Users/loic/OpenGL_Project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,7 +40,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/loic/MonProjetSFML/build/install_local_manifest.txt"
+  file(WRITE "/Users/loic/OpenGL_Project/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -56,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/loic/MonProjetSFML/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/loic/OpenGL_Project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

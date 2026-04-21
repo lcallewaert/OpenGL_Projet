@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/loic/MonProjetSFML/build"
+			"value" : "/Users/loic/OpenGL_Project/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -155,11 +155,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/clang++"
+			"value" : "/usr/bin/c++"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -251,11 +251,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/clang"
+			"value" : "/usr/bin/cc"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -491,7 +491,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/loic/MonProjetSFML/build/CMakeFiles/pkgRedirects"
+			"value" : "/Users/loic/OpenGL_Project/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -551,7 +551,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/loic/MonProjetSFML"
+			"value" : "/Users/loic/OpenGL_Project"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1247,7 +1247,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/loic/MonProjetSFML/build"
+			"value" : "/Users/loic/OpenGL_Project/build"
 		},
 		{
 			"name" : "MonProjetSFML_IS_TOP_LEVEL",
@@ -1271,7 +1271,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/loic/MonProjetSFML"
+			"value" : "/Users/loic/OpenGL_Project"
 		},
 		{
 			"name" : "OPENGL_GLU_INCLUDE_DIR",

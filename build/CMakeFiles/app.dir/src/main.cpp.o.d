@@ -1,4 +1,5 @@
-CMakeFiles/app.dir/src/main.cpp.o: /Users/loic/MonProjetSFML/src/main.cpp \
+CMakeFiles/app.dir/src/main.cpp.o: \
+  /Users/loic/OpenGL_Project/src/main.cpp \
   /opt/homebrew/include/GL/glew.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
@@ -921,8 +922,8 @@ CMakeFiles/app.dir/src/main.cpp.o: /Users/loic/MonProjetSFML/src/main.cpp \
   /opt/homebrew/include/SFML/System/Sleep.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /opt/homebrew/include/SFML/OpenGL.hpp \
-  /Users/loic/MonProjetSFML/src/core/Engine.h \
-  /Users/loic/MonProjetSFML/src/renderer/Shader.h \
+  /Users/loic/OpenGL_Project/src/core/Engine.h \
+  /Users/loic/OpenGL_Project/src/renderer/Shader.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Users/loic/MonProjetSFML/src/core/stb_image.h
+  /Users/loic/OpenGL_Project/src/core/stb_image.h

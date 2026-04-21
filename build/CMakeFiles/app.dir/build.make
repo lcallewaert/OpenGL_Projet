@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/loic/MonProjetSFML
+CMAKE_SOURCE_DIR = /Users/loic/OpenGL_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/loic/MonProjetSFML/build
+CMAKE_BINARY_DIR = /Users/loic/OpenGL_Project/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/app.dir/depend.make
@@ -73,102 +73,102 @@ CMakeFiles/app.dir/codegen:
 .PHONY : CMakeFiles/app.dir/codegen
 
 CMakeFiles/app.dir/src/core/Engine.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/core/Engine.cpp.o: /Users/loic/MonProjetSFML/src/core/Engine.cpp
+CMakeFiles/app.dir/src/core/Engine.cpp.o: /Users/loic/OpenGL_Project/src/core/Engine.cpp
 CMakeFiles/app.dir/src/core/Engine.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/loic/MonProjetSFML/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/src/core/Engine.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/core/Engine.cpp.o -MF CMakeFiles/app.dir/src/core/Engine.cpp.o.d -o CMakeFiles/app.dir/src/core/Engine.cpp.o -c /Users/loic/MonProjetSFML/src/core/Engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/loic/OpenGL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/src/core/Engine.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/core/Engine.cpp.o -MF CMakeFiles/app.dir/src/core/Engine.cpp.o.d -o CMakeFiles/app.dir/src/core/Engine.cpp.o -c /Users/loic/OpenGL_Project/src/core/Engine.cpp
 
 CMakeFiles/app.dir/src/core/Engine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/core/Engine.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/loic/MonProjetSFML/src/core/Engine.cpp > CMakeFiles/app.dir/src/core/Engine.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/loic/OpenGL_Project/src/core/Engine.cpp > CMakeFiles/app.dir/src/core/Engine.cpp.i
 
 CMakeFiles/app.dir/src/core/Engine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/core/Engine.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/loic/MonProjetSFML/src/core/Engine.cpp -o CMakeFiles/app.dir/src/core/Engine.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/loic/OpenGL_Project/src/core/Engine.cpp -o CMakeFiles/app.dir/src/core/Engine.cpp.s
 
 CMakeFiles/app.dir/src/core/Window.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/core/Window.cpp.o: /Users/loic/MonProjetSFML/src/core/Window.cpp
+CMakeFiles/app.dir/src/core/Window.cpp.o: /Users/loic/OpenGL_Project/src/core/Window.cpp
 CMakeFiles/app.dir/src/core/Window.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/loic/MonProjetSFML/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/src/core/Window.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/core/Window.cpp.o -MF CMakeFiles/app.dir/src/core/Window.cpp.o.d -o CMakeFiles/app.dir/src/core/Window.cpp.o -c /Users/loic/MonProjetSFML/src/core/Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/loic/OpenGL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/src/core/Window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/core/Window.cpp.o -MF CMakeFiles/app.dir/src/core/Window.cpp.o.d -o CMakeFiles/app.dir/src/core/Window.cpp.o -c /Users/loic/OpenGL_Project/src/core/Window.cpp
 
 CMakeFiles/app.dir/src/core/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/core/Window.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/loic/MonProjetSFML/src/core/Window.cpp > CMakeFiles/app.dir/src/core/Window.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/loic/OpenGL_Project/src/core/Window.cpp > CMakeFiles/app.dir/src/core/Window.cpp.i
 
 CMakeFiles/app.dir/src/core/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/core/Window.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/loic/MonProjetSFML/src/core/Window.cpp -o CMakeFiles/app.dir/src/core/Window.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/loic/OpenGL_Project/src/core/Window.cpp -o CMakeFiles/app.dir/src/core/Window.cpp.s
 
 CMakeFiles/app.dir/src/core/stb_image.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/core/stb_image.cpp.o: /Users/loic/MonProjetSFML/src/core/stb_image.cpp
+CMakeFiles/app.dir/src/core/stb_image.cpp.o: /Users/loic/OpenGL_Project/src/core/stb_image.cpp
 CMakeFiles/app.dir/src/core/stb_image.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/loic/MonProjetSFML/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/src/core/stb_image.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/core/stb_image.cpp.o -MF CMakeFiles/app.dir/src/core/stb_image.cpp.o.d -o CMakeFiles/app.dir/src/core/stb_image.cpp.o -c /Users/loic/MonProjetSFML/src/core/stb_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/loic/OpenGL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/src/core/stb_image.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/core/stb_image.cpp.o -MF CMakeFiles/app.dir/src/core/stb_image.cpp.o.d -o CMakeFiles/app.dir/src/core/stb_image.cpp.o -c /Users/loic/OpenGL_Project/src/core/stb_image.cpp
 
 CMakeFiles/app.dir/src/core/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/core/stb_image.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/loic/MonProjetSFML/src/core/stb_image.cpp > CMakeFiles/app.dir/src/core/stb_image.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/loic/OpenGL_Project/src/core/stb_image.cpp > CMakeFiles/app.dir/src/core/stb_image.cpp.i
 
 CMakeFiles/app.dir/src/core/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/core/stb_image.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/loic/MonProjetSFML/src/core/stb_image.cpp -o CMakeFiles/app.dir/src/core/stb_image.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/loic/OpenGL_Project/src/core/stb_image.cpp -o CMakeFiles/app.dir/src/core/stb_image.cpp.s
 
 CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/main.cpp.o: /Users/loic/MonProjetSFML/src/main.cpp
+CMakeFiles/app.dir/src/main.cpp.o: /Users/loic/OpenGL_Project/src/main.cpp
 CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/loic/MonProjetSFML/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/app.dir/src/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/main.cpp.o -MF CMakeFiles/app.dir/src/main.cpp.o.d -o CMakeFiles/app.dir/src/main.cpp.o -c /Users/loic/MonProjetSFML/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/loic/OpenGL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/app.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/main.cpp.o -MF CMakeFiles/app.dir/src/main.cpp.o.d -o CMakeFiles/app.dir/src/main.cpp.o -c /Users/loic/OpenGL_Project/src/main.cpp
 
 CMakeFiles/app.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/loic/MonProjetSFML/src/main.cpp > CMakeFiles/app.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/loic/OpenGL_Project/src/main.cpp > CMakeFiles/app.dir/src/main.cpp.i
 
 CMakeFiles/app.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/loic/MonProjetSFML/src/main.cpp -o CMakeFiles/app.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/loic/OpenGL_Project/src/main.cpp -o CMakeFiles/app.dir/src/main.cpp.s
 
 CMakeFiles/app.dir/src/renderer/Mesh.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/renderer/Mesh.cpp.o: /Users/loic/MonProjetSFML/src/renderer/Mesh.cpp
+CMakeFiles/app.dir/src/renderer/Mesh.cpp.o: /Users/loic/OpenGL_Project/src/renderer/Mesh.cpp
 CMakeFiles/app.dir/src/renderer/Mesh.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/loic/MonProjetSFML/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/app.dir/src/renderer/Mesh.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/renderer/Mesh.cpp.o -MF CMakeFiles/app.dir/src/renderer/Mesh.cpp.o.d -o CMakeFiles/app.dir/src/renderer/Mesh.cpp.o -c /Users/loic/MonProjetSFML/src/renderer/Mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/loic/OpenGL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/app.dir/src/renderer/Mesh.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/renderer/Mesh.cpp.o -MF CMakeFiles/app.dir/src/renderer/Mesh.cpp.o.d -o CMakeFiles/app.dir/src/renderer/Mesh.cpp.o -c /Users/loic/OpenGL_Project/src/renderer/Mesh.cpp
 
 CMakeFiles/app.dir/src/renderer/Mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/renderer/Mesh.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/loic/MonProjetSFML/src/renderer/Mesh.cpp > CMakeFiles/app.dir/src/renderer/Mesh.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/loic/OpenGL_Project/src/renderer/Mesh.cpp > CMakeFiles/app.dir/src/renderer/Mesh.cpp.i
 
 CMakeFiles/app.dir/src/renderer/Mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/renderer/Mesh.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/loic/MonProjetSFML/src/renderer/Mesh.cpp -o CMakeFiles/app.dir/src/renderer/Mesh.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/loic/OpenGL_Project/src/renderer/Mesh.cpp -o CMakeFiles/app.dir/src/renderer/Mesh.cpp.s
 
 CMakeFiles/app.dir/src/renderer/Renderer.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/renderer/Renderer.cpp.o: /Users/loic/MonProjetSFML/src/renderer/Renderer.cpp
+CMakeFiles/app.dir/src/renderer/Renderer.cpp.o: /Users/loic/OpenGL_Project/src/renderer/Renderer.cpp
 CMakeFiles/app.dir/src/renderer/Renderer.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/loic/MonProjetSFML/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/app.dir/src/renderer/Renderer.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/renderer/Renderer.cpp.o -MF CMakeFiles/app.dir/src/renderer/Renderer.cpp.o.d -o CMakeFiles/app.dir/src/renderer/Renderer.cpp.o -c /Users/loic/MonProjetSFML/src/renderer/Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/loic/OpenGL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/app.dir/src/renderer/Renderer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/renderer/Renderer.cpp.o -MF CMakeFiles/app.dir/src/renderer/Renderer.cpp.o.d -o CMakeFiles/app.dir/src/renderer/Renderer.cpp.o -c /Users/loic/OpenGL_Project/src/renderer/Renderer.cpp
 
 CMakeFiles/app.dir/src/renderer/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/renderer/Renderer.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/loic/MonProjetSFML/src/renderer/Renderer.cpp > CMakeFiles/app.dir/src/renderer/Renderer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/loic/OpenGL_Project/src/renderer/Renderer.cpp > CMakeFiles/app.dir/src/renderer/Renderer.cpp.i
 
 CMakeFiles/app.dir/src/renderer/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/renderer/Renderer.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/loic/MonProjetSFML/src/renderer/Renderer.cpp -o CMakeFiles/app.dir/src/renderer/Renderer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/loic/OpenGL_Project/src/renderer/Renderer.cpp -o CMakeFiles/app.dir/src/renderer/Renderer.cpp.s
 
 CMakeFiles/app.dir/src/renderer/Shader.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/renderer/Shader.cpp.o: /Users/loic/MonProjetSFML/src/renderer/Shader.cpp
+CMakeFiles/app.dir/src/renderer/Shader.cpp.o: /Users/loic/OpenGL_Project/src/renderer/Shader.cpp
 CMakeFiles/app.dir/src/renderer/Shader.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/loic/MonProjetSFML/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/app.dir/src/renderer/Shader.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/renderer/Shader.cpp.o -MF CMakeFiles/app.dir/src/renderer/Shader.cpp.o.d -o CMakeFiles/app.dir/src/renderer/Shader.cpp.o -c /Users/loic/MonProjetSFML/src/renderer/Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/loic/OpenGL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/app.dir/src/renderer/Shader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/renderer/Shader.cpp.o -MF CMakeFiles/app.dir/src/renderer/Shader.cpp.o.d -o CMakeFiles/app.dir/src/renderer/Shader.cpp.o -c /Users/loic/OpenGL_Project/src/renderer/Shader.cpp
 
 CMakeFiles/app.dir/src/renderer/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/renderer/Shader.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/loic/MonProjetSFML/src/renderer/Shader.cpp > CMakeFiles/app.dir/src/renderer/Shader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/loic/OpenGL_Project/src/renderer/Shader.cpp > CMakeFiles/app.dir/src/renderer/Shader.cpp.i
 
 CMakeFiles/app.dir/src/renderer/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/renderer/Shader.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/loic/MonProjetSFML/src/renderer/Shader.cpp -o CMakeFiles/app.dir/src/renderer/Shader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/loic/OpenGL_Project/src/renderer/Shader.cpp -o CMakeFiles/app.dir/src/renderer/Shader.cpp.s
 
 # Object files for target app
 app_OBJECTS = \
@@ -197,7 +197,7 @@ app: /opt/homebrew/lib/libsfml-system.3.0.2.dylib
 app: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework
 app: /opt/homebrew/lib/libGLEW.2.3.1.dylib
 app: CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/loic/MonProjetSFML/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/loic/OpenGL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -209,6 +209,6 @@ CMakeFiles/app.dir/clean:
 .PHONY : CMakeFiles/app.dir/clean
 
 CMakeFiles/app.dir/depend:
-	cd /Users/loic/MonProjetSFML/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/loic/MonProjetSFML /Users/loic/MonProjetSFML /Users/loic/MonProjetSFML/build /Users/loic/MonProjetSFML/build /Users/loic/MonProjetSFML/build/CMakeFiles/app.dir/DependInfo.cmake "--color=$(COLOR)" app
+	cd /Users/loic/OpenGL_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/loic/OpenGL_Project /Users/loic/OpenGL_Project /Users/loic/OpenGL_Project/build /Users/loic/OpenGL_Project/build /Users/loic/OpenGL_Project/build/CMakeFiles/app.dir/DependInfo.cmake "--color=$(COLOR)" app
 .PHONY : CMakeFiles/app.dir/depend
 

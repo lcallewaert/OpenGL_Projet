@@ -111,7 +111,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "app::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-app-Debug-b9bf7042463927715a0a.json",
+					"jsonFile" : "target-app-Debug-4ee47cd3c01543fc2a9c.json",
 					"name" : "app",
 					"projectIndex" : 0
 				}
@@ -121,8 +121,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/loic/MonProjetSFML/build",
-		"source" : "/Users/loic/MonProjetSFML"
+		"build" : "/Users/loic/OpenGL_Project/build",
+		"source" : "/Users/loic/OpenGL_Project"
 	},
 	"version" : 
 	{

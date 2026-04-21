@@ -1,6 +1,6 @@
 CMakeFiles/app.dir/src/core/Engine.cpp.o: \
-  /Users/loic/MonProjetSFML/src/core/Engine.cpp \
-  /Users/loic/MonProjetSFML/src/core/Engine.h \
+  /Users/loic/OpenGL_Project/src/core/Engine.cpp \
+  /Users/loic/OpenGL_Project/src/core/Engine.h \
   /opt/homebrew/include/GL/glew.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \

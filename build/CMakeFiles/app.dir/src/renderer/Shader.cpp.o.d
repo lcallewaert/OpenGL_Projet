@@ -1,6 +1,6 @@
 CMakeFiles/app.dir/src/renderer/Shader.cpp.o: \
-  /Users/loic/MonProjetSFML/src/renderer/Shader.cpp \
-  /Users/loic/MonProjetSFML/src/renderer/Shader.h \
+  /Users/loic/OpenGL_Project/src/renderer/Shader.cpp \
+  /Users/loic/OpenGL_Project/src/renderer/Shader.h \
   /opt/homebrew/include/GL/glew.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \

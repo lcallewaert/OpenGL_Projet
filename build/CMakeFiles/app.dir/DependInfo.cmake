@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/loic/MonProjetSFML/src/core/Engine.cpp" "CMakeFiles/app.dir/src/core/Engine.cpp.o" "gcc" "CMakeFiles/app.dir/src/core/Engine.cpp.o.d"
-  "/Users/loic/MonProjetSFML/src/core/Window.cpp" "CMakeFiles/app.dir/src/core/Window.cpp.o" "gcc" "CMakeFiles/app.dir/src/core/Window.cpp.o.d"
-  "/Users/loic/MonProjetSFML/src/core/stb_image.cpp" "CMakeFiles/app.dir/src/core/stb_image.cpp.o" "gcc" "CMakeFiles/app.dir/src/core/stb_image.cpp.o.d"
-  "/Users/loic/MonProjetSFML/src/main.cpp" "CMakeFiles/app.dir/src/main.cpp.o" "gcc" "CMakeFiles/app.dir/src/main.cpp.o.d"
-  "/Users/loic/MonProjetSFML/src/renderer/Mesh.cpp" "CMakeFiles/app.dir/src/renderer/Mesh.cpp.o" "gcc" "CMakeFiles/app.dir/src/renderer/Mesh.cpp.o.d"
-  "/Users/loic/MonProjetSFML/src/renderer/Renderer.cpp" "CMakeFiles/app.dir/src/renderer/Renderer.cpp.o" "gcc" "CMakeFiles/app.dir/src/renderer/Renderer.cpp.o.d"
-  "/Users/loic/MonProjetSFML/src/renderer/Shader.cpp" "CMakeFiles/app.dir/src/renderer/Shader.cpp.o" "gcc" "CMakeFiles/app.dir/src/renderer/Shader.cpp.o.d"
+  "/Users/loic/OpenGL_Project/src/core/Engine.cpp" "CMakeFiles/app.dir/src/core/Engine.cpp.o" "gcc" "CMakeFiles/app.dir/src/core/Engine.cpp.o.d"
+  "/Users/loic/OpenGL_Project/src/core/Window.cpp" "CMakeFiles/app.dir/src/core/Window.cpp.o" "gcc" "CMakeFiles/app.dir/src/core/Window.cpp.o.d"
+  "/Users/loic/OpenGL_Project/src/core/stb_image.cpp" "CMakeFiles/app.dir/src/core/stb_image.cpp.o" "gcc" "CMakeFiles/app.dir/src/core/stb_image.cpp.o.d"
+  "/Users/loic/OpenGL_Project/src/main.cpp" "CMakeFiles/app.dir/src/main.cpp.o" "gcc" "CMakeFiles/app.dir/src/main.cpp.o.d"
+  "/Users/loic/OpenGL_Project/src/renderer/Mesh.cpp" "CMakeFiles/app.dir/src/renderer/Mesh.cpp.o" "gcc" "CMakeFiles/app.dir/src/renderer/Mesh.cpp.o.d"
+  "/Users/loic/OpenGL_Project/src/renderer/Renderer.cpp" "CMakeFiles/app.dir/src/renderer/Renderer.cpp.o" "gcc" "CMakeFiles/app.dir/src/renderer/Renderer.cpp.o.d"
+  "/Users/loic/OpenGL_Project/src/renderer/Shader.cpp" "CMakeFiles/app.dir/src/renderer/Shader.cpp.o" "gcc" "CMakeFiles/app.dir/src/renderer/Shader.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

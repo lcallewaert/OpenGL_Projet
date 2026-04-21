@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/loic/MonProjetSFML/build/cmake_install.cmake"
+		"/Users/loic/OpenGL_Project/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
